@@ -7,11 +7,14 @@ npm install alertonleave --save-dev
 ```ts
 import {alertOnLeave} from "alertonleave";
 
-alertOnLeave(()=>{
+const dispose = alertOnLeave(()=>{
   if (someCondition) {
     return "Are you sure you want to leave?"
   }
-})
+});
+
+// When you don't want to check anymore
+dispose();
 ```
 
 Build with TypeScript 🌹
