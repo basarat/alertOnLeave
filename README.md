@@ -1,6 +1,6 @@
 # Install
 ```
-npm install alertonleave --save-dev
+npm install alertonleave --save
 ```
 
 # Use
