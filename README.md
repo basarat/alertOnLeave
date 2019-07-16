@@ -1,4 +1,7 @@
 # Install
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/basarat/alertOnLeave.svg)](https://greenkeeper.io/)
+
 ```
 npm install alertonleave --save
 ```
